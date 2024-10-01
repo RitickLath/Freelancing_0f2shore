@@ -11,10 +11,9 @@ import Navbar from "./components/Navbar";
 const Home = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <Landing />
+      <Hero />
       <div className="p-3 md:px-6 lg:px-20">
-        {/* <Hero /> */}
         <WhyUs />
         {/* <Services />
         <FAQs />

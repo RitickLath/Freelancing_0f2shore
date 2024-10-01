@@ -9,29 +9,6 @@ export const MISSION =
 export const VISION =
   "We envision a world where quality products are accessible to all, regardless of location. Through our dedicated service and strategic partnerships, we strive to be a leader in the export industry.";
 
-// Why Choose Us?
-
-export const WHY_CHOOSE_US = [
-  {
-    title: "Quality Assurance",
-    content:
-      "We adhere to the highest standards, ensuring that every product meets international safety and quality regulations, giving you confidence in our offerings.",
-    img: "/images/QualityAssurance.jpg",
-  },
-  {
-    title: "Comprehensive Support",
-    content:
-      "Our extensive services include market research, logistics, and customs handling, providing tailored end-to-end solutions for your exporting needs.",
-    img: "/images/ComprehensiveSupport.jpg",
-  },
-  {
-    title: "Global Reach & Customer Focus",
-    content:
-      "With a vast network connecting you to markets worldwide, we prioritize your needs with personalized support and transparent communication throughout the export process.",
-    img: "/images/Global.jpg",
-  },
-];
-
 // Our Expertise
 export const EXPERTISE =
   "With years of experience in the export sector, our knowledgeable team is equipped to navigate the complexities of international trade. We are committed to staying updated on market trends, regulations, and innovative practices to serve our clients better.";
@@ -43,6 +20,9 @@ export const CLOSING_STATEMENT =
 // Connect With Us
 export const CONNECT_WITH_US =
   "We invite you to explore our offerings and discover how OffshoreXports can help you achieve your export goals. For inquiries, please contact us or visit our services page for more information.";
+
+
+
 
 export const SERVICES = [
   {
@@ -94,5 +74,28 @@ export const SERVICES = [
     title: "Ongoing Support",
     description:
       "Our commitment to you doesn’t end with the sale. We provide ongoing support and communication to address any questions or concerns you may have throughout the export process.",
+  },
+];
+
+// Why Choose Us?
+
+export const WHY_CHOOSE_US = [
+  {
+    title: "Quality Assurance",
+    content:
+      "We adhere to the highest standards, ensuring that every product meets international safety and quality regulations, giving you confidence in our offerings.",
+    img: "/images/QualityAssurance.jpg",
+  },
+  {
+    title: "Comprehensive Support",
+    content:
+      "Our extensive services include market research, logistics, and customs handling, providing tailored end-to-end solutions for your exporting needs.",
+    img: "/images/ComprehensiveSupport.jpg",
+  },
+  {
+    title: "Global Reach & Customer Focus",
+    content:
+      "With a vast network connecting you to markets worldwide, we prioritize your needs with personalized support and transparent communication throughout the export process.",
+    img: "/images/Global.jpg",
   },
 ];
