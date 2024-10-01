@@ -1,5 +1,6 @@
 import React from "react";
 import { ABOUT_OFFSHOREXPORTS } from "../constants/About";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -17,7 +18,9 @@ const Hero = () => {
       </div>
       {/* Image for All Screens */}
       <div className="hidden md:flex lg:w-1/2 mt-4 lg:mt-0">
-        <img
+        <Image
+          width={500}
+          height={500}
           src="/images/Globe.png" // Ensure the correct image extension
           alt="Global Trade"
           className="md:w-[300px] lg:w-[400px] h-auto rounded-md" // Responsive image

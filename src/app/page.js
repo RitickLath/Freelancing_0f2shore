@@ -10,17 +10,19 @@ import Navbar from "./components/Navbar";
 
 const Home = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Landing />
       <Hero />
       <div className="p-3 md:px-6 lg:px-20">
         <WhyUs />
         <Services />
-        {/* <Services />
-        <FAQs />
-        <Contact />
-        <Footer /> */}
+
+        {/* <FAQs />
+       
+         */}
       </div>
+      <Contact />
+      <Footer />
     </div>
   );
 };

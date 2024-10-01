@@ -5,15 +5,49 @@ const Landing = () => {
     <div className="relative h-[70vh] md:h-screen w-screen overflow-hidden">
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-full"
         src="/videos/LandingPageVideo.mp4"
         autoPlay
         loop
         muted
+        style={{ objectFit: "cover" }} // Ensure the video covers the entire area
       ></video>
 
       {/* Black Film (Overlay) */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
+
+      {/* Navbar */}
+      <nav className="bg-black opacity-70 absolute top-0 left-0 w-full flex justify-between items-center p-4 z-10">
+        <div className="text-white font-semibold text-lg ml-4">
+          OffshoreXports
+        </div>
+        <ul className="flex space-x-6 mr-6">
+          <li>
+            <a
+              href="#solutions"
+              className="text-white hover:text-yellow-500 transition duration-300"
+            >
+              Solutions
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="text-white hover:text-yellow-500 transition duration-300"
+            >
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="#faqs"
+              className="text-white hover:text-yellow-500 transition duration-300"
+            >
+              FAQs
+            </a>
+          </li>
+        </ul>
+      </nav>
 
       {/* Centered Text */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
