@@ -15,6 +15,7 @@ const Home = () => {
       <Hero />
       <div className="p-3 md:px-6 lg:px-20">
         <WhyUs />
+        <Services />
         {/* <Services />
         <FAQs />
         <Contact />
