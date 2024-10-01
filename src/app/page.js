@@ -13,7 +13,7 @@ const Home = () => {
     <div>
       {/* <Navbar /> */}
       <Landing />
-      <div className="p-6 lg:px-20">
+      <div className="p-3 md:px-6 lg:px-20">
         {/* <Hero /> */}
         <WhyUs />
         {/* <Services />

@@ -11,16 +11,26 @@ export const VISION =
 
 // Why Choose Us?
 
-export const WHY_CHOOSE_US = {
-  QUALITY_ASSURANCE:
-    "We adhere to the highest standards, ensuring that every product meets international safety and quality regulations.",
-  COMPREHENSIVE_SERVICES:
-    "From market research to logistics and customs handling, we offer end-to-end solutions tailored to your needs.",
-  GLOBAL_REACH:
-    "Our extensive network allows us to connect you with markets worldwide, facilitating smooth and efficient trade.",
-  CUSTOMER_CENTRIC:
-    "We prioritize your needs, providing personalized support and transparent communication throughout the export process.",
-};
+export const WHY_CHOOSE_US = [
+  {
+    title: "Quality Assurance",
+    content:
+      "We adhere to the highest standards, ensuring that every product meets international safety and quality regulations, giving you confidence in our offerings.",
+    img: "/images/QualityAssurance.jpg",
+  },
+  {
+    title: "Comprehensive Support",
+    content:
+      "Our extensive services include market research, logistics, and customs handling, providing tailored end-to-end solutions for your exporting needs.",
+    img: "/images/ComprehensiveSupport.jpg",
+  },
+  {
+    title: "Global Reach & Customer Focus",
+    content:
+      "With a vast network connecting you to markets worldwide, we prioritize your needs with personalized support and transparent communication throughout the export process.",
+    img: "/images/Global.jpg",
+  },
+];
 
 // Our Expertise
 export const EXPERTISE =
