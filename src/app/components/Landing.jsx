@@ -1,6 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 const Landing = () => {
+  // Scroll to a section without changing the URL
+
   return (
     <div className="relative h-[70vh] md:h-screen w-screen overflow-hidden">
       {/* Background Video */}
@@ -10,7 +13,7 @@ const Landing = () => {
         autoPlay
         loop
         muted
-        style={{ objectFit: "cover" }} // Ensure the video covers the entire area
+        style={{ objectFit: "cover" }}
       ></video>
 
       {/* Black Film (Overlay) */}
@@ -23,20 +26,20 @@ const Landing = () => {
         </div>
         <ul className="flex space-x-3 mr-6">
           <li>
-            <a
-              href="#solutions"
+            <Link
+              href="#solution"
               className="text-white hover:text-yellow-500 transition duration-300"
             >
               Solutions
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               href="#contact"
               className="text-white hover:text-yellow-500 transition duration-300"
             >
               Contact Us
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -50,8 +53,11 @@ const Landing = () => {
           <h2 className="text-lg md:text-2xl font-normal">
             Expanding Horizons, Shipping Worldwide
           </h2>
-          {/* Button */}
-          <button className="mt-4 bg-yellow-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-yellow-600 transition duration-300">
+          {/* Link */}
+          <button
+            href="#contact"
+            className="mt-4 bg-yellow-500 text-black font-semibold py-2 px-4 rounded-lg hover:bg-yellow-600 transition duration-300"
+          >
             Get in Touch
           </button>
         </div>

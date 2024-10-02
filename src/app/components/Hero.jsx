@@ -12,7 +12,10 @@ const Hero = () => {
         </h1>
         <h3 className="max-w-[500px]">{ABOUT_OFFSHOREXPORTS}</h3>
         {/* Get in Touch Button */}
-        <button className="w-full max-w-[500px] sm:w-auto mt-4 px-6 py-3 sm:py-2 text-xl bg-[WHITE] text-black rounded-md font-semibold hover:bg-[#7C7A7A] transition duration-300">
+        <button
+          href="#contact"
+          className="w-full max-w-[500px] sm:w-auto mt-4 px-6 py-3 sm:py-2 text-xl bg-[WHITE] text-black rounded-md font-semibold hover:bg-[#7C7A7A] transition duration-300"
+        >
           Get in Touch
         </button>
       </div>

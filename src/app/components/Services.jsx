@@ -5,7 +5,9 @@ import { SERVICES } from "../constants/ServiceConst";
 const Services = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-8 mt-12">
-      <h2 className="text-red-600 font-semibold">Solutions we provide!</h2>
+      <h2 id="solution" className="text-red-600 font-semibold">
+        Solutions we provide!
+      </h2>
       <div className="md:flex md:space-x-8 md:mt-2">
         <div className="">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7C7A7A]">

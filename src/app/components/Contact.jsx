@@ -29,7 +29,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#191615] px-7 sm:px-9 lg:px-28 border-b-[1px] border-[#282625] mt-12 flex flex-col md:flex-row justify-between items-center">
+    <div
+      id="contact"
+      className="bg-[#191615] px-7 sm:px-9 lg:px-28 border-b-[1px] border-[#282625] mt-12 flex flex-col md:flex-row justify-between items-center"
+    >
       {/* Contact Form */}
       <div className="w-full md:w-1/2  text-white py-8">
         <h3 className="text-red-600 font-semibold">Contact Us</h3>
