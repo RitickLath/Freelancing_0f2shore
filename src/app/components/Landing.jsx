@@ -21,7 +21,7 @@ const Landing = () => {
         <div className="text-white font-semibold text-lg ml-4">
           OffshoreXports
         </div>
-        <ul className="flex space-x-6 mr-6">
+        <ul className="flex space-x-3 mr-6">
           <li>
             <a
               href="#solutions"
@@ -36,14 +36,6 @@ const Landing = () => {
               className="text-white hover:text-yellow-500 transition duration-300"
             >
               Contact Us
-            </a>
-          </li>
-          <li>
-            <a
-              href="#faqs"
-              className="text-white hover:text-yellow-500 transition duration-300"
-            >
-              FAQs
             </a>
           </li>
         </ul>

@@ -4,7 +4,7 @@ import { AiOutlineMail } from "react-icons/ai"; // Gmail icon
 
 const Footer = () => {
   return (
-    <div className="bg-[#191615] text-white py-4 px-4 md:px-16">
+    <div className="bg-[#191615] text-white py-2 px-4 md:px-16">
       {/* Footer Content */}
       <div className="flex flex-col md:flex-row justify-between items-center">
         {/* Social Icons */}

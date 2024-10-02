@@ -16,9 +16,10 @@ const Home = () => {
       <div className="p-3 md:px-6 lg:px-20">
         <WhyUs />
         <Services />
+        <FAQs />
       </div>
-      <FAQs />
       <Contact />
+
       <Footer />
     </div>
   );
