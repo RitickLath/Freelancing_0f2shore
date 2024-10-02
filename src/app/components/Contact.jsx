@@ -29,11 +29,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#191615] px-4 sm:px-6 lg:px-20 border-b-[1px] mt-12 flex flex-col md:flex-row justify-between items-center h-screen">
+    <div className="bg-[#191615] px-4 sm:px-6 lg:px-28 border-b-[1px] mt-12 flex flex-col md:flex-row justify-between items-center h-screen">
       {/* Contact Form */}
-      <div className="w-full md:w-1/2  text-white p-8">
+      <div className="w-full md:w-1/2  text-white py-8">
         <h3 className="text-red-600 font-semibold">Contact Us</h3>
-        <h1 className="text-4xl font-bold mt-2">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mt-2">
           Partner with Us for <br /> Expert-Led Success
         </h1>
 
