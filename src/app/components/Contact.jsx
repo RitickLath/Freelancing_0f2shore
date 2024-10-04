@@ -10,7 +10,7 @@ const Contact = () => {
 
   // WhatsApp link
   const handleWhatsApp = () => {
-    const whatsappURL = `https://wa.me/yourNumber?text=Name: ${encodeURIComponent(
+    const whatsappURL = `https://wa.me/8595111194?text=Name: ${encodeURIComponent(
       name
     )}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(
       message
