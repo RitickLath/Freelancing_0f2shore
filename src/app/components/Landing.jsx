@@ -7,11 +7,13 @@ const Landing = () => {
     <div className="relative h-[70vh] md:h-screen w-screen overflow-hidden">
       {/* Background Video */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/videos/LandingPageVideo.mp4"
+        className="bg-black absolute top-0 left-0 w-full h-full object-cover"
+        src="/videos/Landingpage.mp4"
         autoPlay
         loop
         muted
+        preload="auto"
+        poster="/images/Poster.jpeg"
       ></video>
 
       {/* Black Film (Overlay) */}
@@ -48,7 +50,6 @@ const Landing = () => {
         </ul>
       </nav>
 
-      
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
         <div className="text-white px-6 md:px-0">
           <h1 className="mb-2 md:mb-4 text-4xl md:text-6xl lg:text-7xl font-bold">
@@ -57,7 +58,7 @@ const Landing = () => {
           <h2 className="text-lg md:text-2xl lg:text-3xl font-normal mb-6">
             Expanding Horizons, Shipping Worldwide
           </h2>
-          
+
           <Link
             href="#contact"
             className="bg-yellow-500 text-black font-semibold py-2 px-5 rounded-md md:rounded-lg text-sm md:text-base lg:text-lg hover:bg-yellow-600 transition duration-300"
