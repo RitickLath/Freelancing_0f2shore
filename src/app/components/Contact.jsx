@@ -20,7 +20,7 @@ const Contact = () => {
 
   // Mailto link
   const handleMail = () => {
-    const mailtoURL = `inquiries@offshorexports.com?subject=Message from ${encodeURIComponent(
+    const mailtoURL = `mailto:inquiries@offshorexports.com?subject=Message from ${encodeURIComponent(
       name
     )}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(
       email

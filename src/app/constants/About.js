@@ -13,15 +13,6 @@ export const CLOSING_STATEMENT =
 export const EXPERTISE =
   "With years of experience in the export sector, our knowledgeable team is equipped to navigate the complexities of international trade. We are committed to staying updated on market trends, regulations, and innovative practices to serve our clients better.";
 
-// Our Vision
-// export const VISION =
-//   "We envision a world where quality products are accessible to all, regardless of location. Through our dedicated service and strategic partnerships, we strive to be a leader in the export industry.";
-
-// // Connect With Us
-// export const CONNECT_WITH_US =
-//   "We invite you to explore our offerings and discover how OffshoreXports can help you achieve your export goals. For inquiries, please contact us or visit our services page for more information.";
-
-// Why Choose Us?
 
 export const WHY_CHOOSE_US = [
   {
