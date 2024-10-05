@@ -50,7 +50,7 @@ const Landing = () => {
         </ul>
       </nav>
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
         <div className="text-white px-6 md:px-0">
           <h1 className="mb-2 md:mb-4 text-4xl md:text-6xl lg:text-7xl font-bold">
             Offshorexports

@@ -19,14 +19,14 @@ const Footer = () => {
           </a>
           {/* WhatsApp */}
           <a
-            href="https://wa.me/your-number"
+            href="https://wa.me/+918595111194"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaWhatsapp className="text-2xl hover:text-yellow-500 transition duration-300" />
           </a>
           {/* Gmail */}
-          <a href="mailto:your-email@gmail.com">
+          <a href="mailto:inquiries@offshorexports.com">
             <AiOutlineMail className="text-2xl hover:text-yellow-500 transition duration-300" />
           </a>
           {/* LinkedIn */}
