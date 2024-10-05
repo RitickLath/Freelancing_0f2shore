@@ -5,11 +5,11 @@ import { WHY_CHOOSE_US } from "../constants/About";
 const WhyUs = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-8">
-      <h2 className="text-red-600 font-semibold">Why OffShoreXports?</h2>
+      <h2 className="text-red-600 font-semibold">Why OffShorexports?</h2>
       <div className="md:flex md:space-x-8 md:mt-2">
         <div className="md:w-[50%] lg:w-[60%]">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7C7A7A]">
-            Why Choose <span className="text-[#191615]">OffShoreXports</span>{" "}
+            Why Choose <span className="text-[#191615]">OffShorexports</span>{" "}
             for Your Exporting Needs?
           </h1>
         </div>

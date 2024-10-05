@@ -49,7 +49,7 @@ const Footer = () => {
 
         {/* Company Text */}
         <div className="text-center text-sm">
-          <p>© 2024 OffshoreXports. All Rights Reserved.</p>
+          <p>© 2024 Offshorexports. All Rights Reserved.</p>
         </div>
       </div>
     </div>

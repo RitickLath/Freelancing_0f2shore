@@ -53,7 +53,7 @@ const Landing = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center z-10">
         <div className="text-white px-6 md:px-0">
           <h1 className="mb-2 md:mb-4 text-4xl md:text-6xl lg:text-7xl font-bold">
-            OffshoreXports
+            Offshorexports
           </h1>
           <h2 className="text-lg md:text-2xl lg:text-3xl font-normal mb-6">
             Expanding Horizons, Shipping Worldwide

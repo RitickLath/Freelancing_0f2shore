@@ -1,13 +1,13 @@
 export const ABOUT_OFFSHOREXPORTS =
-  "Welcome to OffshoreXports, your trusted partner in global trade. We specialize in exporting a diverse range of high-quality products, including food items, electronics, machinery, and much more. With a commitment to excellence and customer satisfaction, we aim to bridge markets and deliver products to every corner of the world.";
+  "Welcome to Offshorexports, your trusted partner in global trade. We specialize in exporting a diverse range of high-quality products, including food items, electronics, machinery, and much more. With a commitment to excellence and customer satisfaction, we aim to bridge markets and deliver products to every corner of the world.";
 
 // Our Mission
 export const MISSION =
-  "At OffshoreXports, our mission is to empower businesses by providing reliable access to quality products on a global scale. We believe in fostering international trade relationships that drive growth and innovation.";
+  "At Offshorexports, our mission is to empower businesses by providing reliable access to quality products on a global scale. We believe in fostering international trade relationships that drive growth and innovation.";
 
 // Final Closing Statement
 export const CLOSING_STATEMENT =
-  "At OffshoreXports, we don’t just export products; we export possibilities. Join us on this journey to expand your business globally.";
+  "At Offshorexports, we don’t just export products; we export possibilities. Join us on this journey to expand your business globally.";
 
 // Our Expertise
 export const EXPERTISE =

@@ -10,7 +10,7 @@ const Contact = () => {
 
   // WhatsApp link
   const handleWhatsApp = () => {
-    const whatsappURL = `https://wa.me/8595111194?text=Name: ${encodeURIComponent(
+    const whatsappURL = `https://wa.me/+918595111194?text=Name: ${encodeURIComponent(
       name
     )}%0AEmail: ${encodeURIComponent(email)}%0AMessage: ${encodeURIComponent(
       message
@@ -20,7 +20,7 @@ const Contact = () => {
 
   // Mailto link
   const handleMail = () => {
-    const mailtoURL = `mailto:yourEmail@gmail.com?subject=Message from ${encodeURIComponent(
+    const mailtoURL = `inquiries@offshorexports.com?subject=Message from ${encodeURIComponent(
       name
     )}&body=Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(
       email
